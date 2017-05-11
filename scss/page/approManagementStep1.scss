@@ -1,0 +1,100 @@
+.page-approManagement-step1 {
+
+  .content-nav {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .search-bar {
+    padding-bottom: 15px;
+    .form-inline {
+      font-size: 0 ;
+       .form-group {
+        display: inline-block ;
+        width: auto ;
+        vertical-align: middle ;
+        font-size: 14px;
+        margin-left: 10px;
+        height: 36px;
+        .form-control{
+          width: 140px;
+        }
+        &:first-child {
+          margin-left: 0;
+        }
+        .productName-control {
+          width: 200px;
+        }
+      }
+    }
+    .search-btn {
+      background: #fd3a49;
+      padding: 7px 30px;
+      float: right;
+      color: #fff;
+    }
+  }
+
+  .cus-info {
+    height: 50px;
+    background-color: #ffffe2;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 30px;
+    .info-item {
+      display: inline-block;
+      padding: 15px 5px 15px 0;
+      width: 27%;
+      &:first-child {
+        width: 18%;
+      }
+      &:last-child {
+        float: right;
+        text-align: right;
+      }
+      p {
+        display: inline-block;
+      }
+    }
+  }
+  .tab-content {
+    padding: 29px;
+    th:first-child {
+      padding-left: 50px;
+    }
+    tr {
+      td:first-child {
+        padding-left: 20px;
+      }
+    }
+    label {
+      .iradio_minimal-red {
+        margin-top: 1px;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+  .btn-group {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    .btn-1 {
+      width: 180px;
+      height: 45px;
+      line-height: 40px;
+      font-size: 16px;
+      text-align: center;
+      display: inline-block;
+    }
+    .btn-cancle {
+      background-color: #fff;
+      color: #fd3a49;
+      border-color: #fd3a49;
+    }
+    .btn-next {
+      margin-left: 30px;
+      background-color: #fd3a49;
+      color: #fff;
+      border-color: #fd3a49;
+    }
+  }
+}

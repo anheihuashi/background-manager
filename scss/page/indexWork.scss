@@ -1,0 +1,108 @@
+.page-index-work {
+  .content {
+    margin-top: 30px;
+    margin-bottom: 0;
+    .content-nav {
+      background-color: #fff;
+      border-bottom: 1px solid #e6e6e6;
+      background-left: 20px;
+      font-size: 16px;
+      .icon {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+    }
+    &.content1 {
+      margin-top: 19px;
+      margin-bottom: 30px;
+    }
+  }
+  .icon-product {
+    background: url(../img/icon-product.png);
+  }
+  .icon-financial {
+    background: url(../img/icon-financial.png);
+  }
+  .tab-content {
+    ul {
+      font-size: 0;
+      li {
+        width: 25%;
+        display: inline-block;
+        padding-top: 25px;
+        padding-bottom: 19px;
+        border-left: 1px solid #e6e6e6;
+        text-align: center;
+        &:first-child {
+          border: none;
+        }
+        &:hover {
+          background-color: #f7f7f7;
+        }
+        h5 {
+          margin-bottom: 20px;
+          font-size: 18px;
+          font-weight: normal;
+        }
+        span {
+          font-size: 50px;
+          border-radius: 50%;
+          color: #333333;
+          display: block;
+          height: 110px;
+          line-height: 110px;
+          text-align: center;
+        }
+        .btn-1 {
+          margin-top: 24px;
+          font-size: 14px;
+          color: #666666;
+          border-radius: 20px;
+          display: inline-block;
+          width: 110px;
+          border-color: #cccccc;
+          padding: 6px 21px;
+        }
+        &:hover .btn-1 {
+          border-color: #fd3a49;
+          color: #fd3a49;
+        }
+        &.li-waiting {
+          span {
+            background-color: #fd3a71;
+            color: #fff;
+            width: 110px;
+            margin: 0 auto;
+          }
+          .btn-1 {
+            background-color: #fd3a71;
+            border-color: #fd3a71;
+            color: #fff;
+          }
+          &:hover .btn-1 {
+            background-color: #ef2554;
+          }
+        }
+        &.li-reform {
+          span {
+            background-color: #36a8ff;
+            color: #fff;
+          width: 110px;
+          margin: 0 auto;
+          }
+          .btn-1 {
+            background-color: #36a8ff;
+            border-color: #36a8ff;
+            color: #fff;
+          }
+          &:hover .btn-1 {
+            background-color: #2096f0;
+          }
+        }
+      }
+    }
+  }
+}

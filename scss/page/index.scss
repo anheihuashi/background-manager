@@ -1,0 +1,105 @@
+.pull-right {
+  p {
+    color: #9a9a9a;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+.page-login {
+  max-width: 1660px;
+  margin: 0 auto;
+  background: url("../img/loginbg.png") center center no-repeat;
+  .middle-warp {
+    padding-top: 130px;
+    min-width: 1000px;
+    padding-bottom: 100px;
+    .middle-box {
+      width: 1000px;
+      margin: 0 auto;
+      position: relative;
+      min-height: 335px;
+    }
+  }
+    .login-box {
+    position: absolute;
+    right: 0;
+    width: 330px;
+    height: 330px;
+    .title {
+      background-color: rgb(81,87,93);
+      color: #fff;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      text-align: center;
+     }
+    .login-content {
+      padding: 50px 38px 38px 38px;
+      height: 280px;
+      background-color: #ecf2f7;
+      .input-group {
+        margin-bottom: 23px;
+        .form-control {
+          position: static;
+        }
+      }
+      .input-group-addon {
+        background-color: #ccc;
+      }
+      .login-icon {
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        background-image: url('../img/login-icon.png');
+        background-repeat: no-repeat;
+        &.icon-user {
+          background-position: 0 0;
+        }
+        &.icon-pwd {
+          background-position: 0 -50px;
+        }
+      }
+      input[type="text"],
+      input[type="password"] {
+        height: 40px;
+        font-size: 16px;
+        padding-left: 22px;
+      }
+    .login-btn,#btn_login {
+      background-color: #fd5849;
+      height: 50px;
+      border-radius: 4px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 24px;
+      color: #fff; }
+      .login-btn:hover {
+        cursor: pointer; }
+    }
+    #myAlert {
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      left: 0;
+      height: 45px;
+      display: none;
+    }
+    .line {
+      margin-bottom: 25px;
+    }
+  }
+  .tagline {
+    position: absolute;
+    width: 475px;
+    height: 425px;
+    top: -30px;
+    left: 65px;
+    p {
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 40px;
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.page-workDesk {
+  .search-bar {
+    padding-bottom: 15px;
+    .form-inline {
+      font-size: 0 ;
+      .form-control, .form-group {
+        display: inline-block ;
+        width: auto ;
+        vertical-align: middle ;
+        font-size: 14px;
+        margin-left: 10px;
+        height: 36px;
+        &:first-child {
+          margin-left: 0;
+        }
+        .productName-control {
+          width: 160px;
+        }
+        .custName-control {
+          width: 130px;
+        }
+        .productType-control {
+          width: 130px;
+        }
+        .cer-control {
+          width: 160px;
+        }
+      }
+    }
+    .search-btn {
+      background: #fd3a49;
+      padding: 7px 30px;
+      float: right;
+      color: #fff;
+    }
+  }
+  .content-nav .btn-1 {
+    float: right;
+    margin-top: 10px;
+  }
+  .tab-content {
+    padding: 29px;
+    th:first-child {
+      text-align: center;
+    }
+    th:last-child {
+      text-align: center;
+    }
+    tr {
+      td:first-child {
+        text-align: center;
+      }
+    }
+    .btn-group.redB .btn{
+      background-color: #fd3a49;
+      color: #fff;
+      border-color: #fd3a49;
+    }
+  }
+  .more-btn {
+    text-align: center;
+    margin-top: 27px;
+    cursor: pointer;
+  }
+  .icon-down {
+    background:url(../img/down-arrow.png);
+    width: 12px;
+    height: 7px;
+    display: block;
+    margin: 5px auto 0;
+  }
+}
+.login-modal {
+  .modal-dialog {
+    .modal-content {
+      border-radius: 0;
+    }
+    width: 400px;
+    .modal-header {
+      padding: 10px;
+      border: 0;
+      background-color: #cccccc;
+      text-align: center;
+      font-size: 18px;
+      color: #000;
+    }
+    .modal-body {
+      padding: 25px 35px 30px 35px;
+      width: 398px;
+      height: 335px;
+      background-color: #f0f0f0;
+      .login-prompt {
+        text-align: center;
+        font-size: 14px;
+        p {
+          margin-top: 5px;
+        }
+      }
+      .input-group {
+        margin-top: 19px;
+        .form-control {
+          position: static;
+        }
+        &:first-child {
+          margin-top: 30px;
+        }
+      }
+      .input-group-addon {
+        background-color: #ccc;
+      }
+      .login-icon {
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        background-image: url('../img/login-icon.png');
+        background-repeat: no-repeat;
+        &.icon-user {
+          background-position: 0 0;
+        }
+        &.icon-pwd {
+          background-position: 0 -50px;
+        }
+      }
+      input[type="text"],
+      input[type="password"] {
+        height: 40px;
+        font-size: 16px;
+        padding-left: 22px;
+      }
+      .error-info {
+        color: #fd3a49;
+        text-align: center;
+        margin-top: 10px;
+        visibility: hidden;
+        vertical-align: middle;
+        &.current {
+          visibility: visible;
+        }
+        .icon-error {
+          width: 15px;
+          height: 15px;
+          display: inline-block;
+          background-image: url(../img/icon-error.png);
+          vertical-align: middle;
+        }
+        span {
+          vertical-align: middle;
+          margin-left: 8px;
+        }
+      }
+      .login-btn {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

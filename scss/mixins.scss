@@ -1,0 +1,35 @@
+@mixin image-url($path) {
+  background-image : url('./images/#{$path}');
+}
+
+@mixin clearfix {
+  &:after {
+    content : "";
+    display : table;
+    clear   : both;
+  }
+  *zoom : 1;
+}
+
+@mixin float($direction) {
+  float    : $direction;
+  *display : inline;
+}
+
+@mixin opacity($opacity) {
+  filter  : unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+  opacity : $opacity;
+}
+
+// Make an element completely transparent.
+@mixin transparent {
+  @include opacity(0);
+}
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius : $radius;
+  -moz-border-radius    : $radius;
+  border-radius         : $radius;
+}
+

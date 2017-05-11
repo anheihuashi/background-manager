@@ -1,0 +1,42 @@
+.research-list {
+  .item-inner {
+    width: 100%;
+    padding: 12px 10px 12px 0;
+  }
+  .item-img {
+    width: 25%;
+    display: inline-block;
+    height: 74px;
+    img {
+      height: 100%;
+    }
+  }
+  .item-des {
+    display: inline-block;
+    width: 63%;
+    height: 74px;
+    .research-name {
+      font-size: 16px;
+      color: #000;
+      font-weight: bold;
+      strong {
+        @include text-overflow();
+        width: 150px;
+      }
+      span {
+        float: right;
+        color: #999999;
+        font-weight: normal;
+        font-size: 14px;
+      }
+    }
+    .research-content {
+      height: 36px;
+      overflow: hidden;
+      font-size: 14px;
+      color: #999999;
+      margin-top: 12px;
+      line-height: 1.4;
+    }
+  }
+}

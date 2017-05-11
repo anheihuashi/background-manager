@@ -1,0 +1,95 @@
+.page-information {
+	.tab-content {
+		padding: 40px 30px;
+	}
+	.part-title {
+		border-bottom: 1px solid #ededed;
+		padding-bottom: 30px;
+		.title-left {
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			display: inline-block;
+			overflow: hidden;
+		}
+		.title-right {
+			display: inline-block;
+				margin-left: 26px;
+				vertical-align: top;
+			.cus-name {
+				font-size: 18px;
+				color: #000;
+				margin-top: 15px;
+			}
+			.cus-info {
+				margin-top: 25px;
+				line-height: 12px;
+				.cus-num {
+					color: #999;
+					border-right: 1px solid #a9a9a9;
+					padding-right: 30px;
+					display: inline-block;
+				}
+				.num-text {
+					color: #333;
+				}
+				.btn-loginout {
+					display: inline-block;
+					margin-left: 20px;
+					color: #c2c2c2;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.part-left {
+		display: inline-block;
+		width: 49%;
+		vertical-align: top;
+		margin-top: 28px;
+		.part-item {
+			margin-bottom: 30px;
+			span {
+				display: inline-block;
+				color: #333;
+			}
+			span:first-child {
+				width: 120px;
+				color: #666;
+			}
+		}
+		.btn-1 {
+			margin-top: 45px;
+			width: 120px;
+			text-align: center;
+			color: #666;
+			border-color: #cccccc;
+			font-size: 16px;
+			padding: 6px 0;
+		}
+	}
+	.part-right {
+		display: inline-block;
+		width: 49%;
+		padding-left: 65px;
+		margin-top: 30px;
+		.part-item {
+			margin-bottom: 30px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			span {
+				display: inline-block;
+				color: #333;
+			}
+			span:first-child {
+				width: 130px;
+				color: #666;
+			}
+			.btn-change {
+				color: #1097dd;
+				cursor: pointer;
+			}
+		}
+	}
+}

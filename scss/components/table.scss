@@ -1,0 +1,122 @@
+.table-warp {
+  table {
+    width: 100%;
+    thead {
+      border-bottom: solid 1px #e6e6e6;
+      background-color: #ededed;
+    }
+    tr {
+      border-bottom: solid 1px #e6e6e6;
+    }
+    tbody {
+      tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      tr:nth-child(even) {
+        background-color: #f7f7f7;
+      }
+      tr:hover {
+        background: #ffffe2;
+        td {
+          input {
+            background: #ffffe2;
+            color: #333;
+          }
+        }
+      }
+      tr.active,tr.continue {
+        background: #ffffe2;
+      }
+    }
+    th {
+      height: 40px;
+    }
+    td {
+      height: 78px;
+    }
+    td {
+      p {
+        margin: 0;
+      }
+      input {
+        width: 90%;
+        border-radius: 0;
+        background: #fff;
+        box-shadow: none;
+        padding: 0;
+        color: #666;
+      }
+      input.readonly {
+        border: 0;
+      }
+      &.oprate {
+        width: 15%;
+        text-align: center;
+        .btn-default {
+          color: $theme-color;
+        }
+        .btn-group {
+          .btn-default {
+            text-shadow: none;
+            background-image: none;
+          }
+          .btn-1 {
+            padding: 4px 5px 4px 15px;
+            border-right: none;
+          }
+          .dropdown-toggle {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            border:solid 1px $theme-color;
+            border-left: none;
+          }
+        }
+        .open>.dropdown-toggle.btn-default {
+          background-color: $theme-color;
+        }
+        button:hover {
+          background-color: $theme-color;
+          color: #fff;
+          border:solid 1px $theme-color;
+        }
+        button:focus {
+          background-color: $theme-color;
+          color: #fff;
+          outline: none;
+          border:solid 1px $theme-color;
+        }
+        .dropdown-menu {
+          padding: 0;
+          border:solid 1px $theme-color;
+          color: $theme-color;
+          min-width:103px;
+          li {
+            a {
+              color: #fd3a49;
+              &:hover {
+                background-color: $theme-color;
+                background-image: none;
+                color: #fff;
+              }
+            }
+          }
+          li:hover {
+            background-color: $theme-color;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .ui-datepicker{
+    tr {
+      border: none;
+      &:hover {
+        background: inherit;
+      }
+      th,td {
+        height: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.page-financial {
+  .search-bar {
+    padding-bottom: 15px;
+    .form-inline {
+      font-size: 0 ;
+      .form-control, .form-group {
+        display: inline-block ;
+        width: auto ;
+        vertical-align: middle ;
+        font-size: 14px;
+        margin-left: 10px;
+        &:first-child {
+          margin-left: 0;
+        }
+        input {
+          height: 32px;
+        }
+        .form-control {
+          width: 140px;
+        }
+        .productName-control {
+          width: 200px;
+        }
+      }
+    }
+    .search-btn {
+      background: #fd3a49;
+      padding: 5px 19px;
+      float: right;
+      color: #fff;
+    }
+  }
+  .content-nav .btn-1 {
+    float: right;
+    margin-top: 10px;
+  }
+  .tab-content {
+    padding: 29px;
+    th:first-child {
+      padding-left: 20px;
+    }
+    tr {
+      td:first-child {
+        padding-left: 20px;
+      }
+    }
+  }
+}
